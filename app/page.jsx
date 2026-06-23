@@ -1,6 +1,10 @@
 import Catalog from "./catalog";
-import perfumes from "../data/perfumes.json";
+import { readPerfumes } from "../lib/perfumes";
 
-export default function HomePage() {
+export const dynamic = "force-dynamic";
+
+export default async function HomePage() {
+  const perfumes = await readPerfumes();
+
   return <Catalog initialPerfumes={perfumes} />;
 }

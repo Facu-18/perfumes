@@ -1,10 +1,14 @@
 import AdminPanel from "./panel";
-import perfumes from "../../data/perfumes.json";
+import { readPerfumes } from "../../lib/perfumes";
 
 export const metadata = {
   title: "Admin de precios"
 };
 
-export default function AdminPage() {
+export const dynamic = "force-dynamic";
+
+export default async function AdminPage() {
+  const perfumes = await readPerfumes();
+
   return <AdminPanel initialPerfumes={perfumes} />;
 }

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 const priceFormatter = new Intl.NumberFormat("es-AR", {
   style: "currency",
@@ -9,6 +10,7 @@ const priceFormatter = new Intl.NumberFormat("es-AR", {
 });
 
 export default function AdminPanel({ initialPerfumes }) {
+  const router = useRouter();
   const [perfumes, setPerfumes] = useState(initialPerfumes);
   const [password, setPassword] = useState("");
   const [query, setQuery] = useState("");
@@ -44,6 +46,7 @@ export default function AdminPanel({ initialPerfumes }) {
       }
 
       setMessage(result.mode === "github" ? "Precios guardados en el repo. Vercel va a redesplegar el sitio." : "Precios guardados en el JSON local.");
+      router.refresh();
     } catch (error) {
       setMessage(error.message);
     } finally {

@@ -1,8 +1,5 @@
-import { promises as fs } from "fs";
-import path from "path";
-import perfumes from "../../../data/perfumes.json";
-
-const dataPath = path.join(process.cwd(), "data", "perfumes.json");
+import { revalidatePath } from "next/cache";
+import { readPerfumes, writePerfumes } from "../../../lib/perfumes";
 
 const validatePerfumes = (items) => {
   if (!Array.isArray(items)) return false;
@@ -63,6 +60,8 @@ const saveToGithub = async (items) => {
 };
 
 export async function GET() {
+  const perfumes = await readPerfumes();
+
   return Response.json({ perfumes });
 }
 
@@ -83,8 +82,11 @@ export async function PUT(request) {
   const savedToGithub = await saveToGithub(nextPerfumes);
 
   if (!savedToGithub) {
-    await fs.writeFile(dataPath, `${JSON.stringify(nextPerfumes, null, 2)}\n`);
+    await writePerfumes(nextPerfumes);
   }
+
+  revalidatePath("/");
+  revalidatePath("/admin");
 
   return Response.json({ ok: true, mode: savedToGithub ? "github" : "local" });
 }
