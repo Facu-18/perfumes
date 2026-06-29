@@ -16,6 +16,11 @@ const validatePerfumes = (items) => {
   );
 };
 
+const errorResponse = (error, status = 500) => {
+  const message = error instanceof Error ? error.message : "Error inesperado.";
+  return Response.json({ error: message }, { status });
+};
+
 const saveToGithub = async (items) => {
   const { token, repository, branch } = getGithubConfig();
 
@@ -60,40 +65,48 @@ const saveToGithub = async (items) => {
 };
 
 export async function GET() {
-  const perfumes = await readPerfumes();
+  try {
+    const perfumes = await readPerfumes();
 
-  return Response.json({ perfumes });
+    return Response.json({ perfumes });
+  } catch (error) {
+    return errorResponse(error);
+  }
 }
 
 export async function PUT(request) {
-  const adminPassword = process.env.ADMIN_PASSWORD;
+  try {
+    const adminPassword = process.env.ADMIN_PASSWORD;
 
-  if (adminPassword && request.headers.get("x-admin-password") !== adminPassword) {
-    return Response.json({ error: "Clave admin incorrecta." }, { status: 401 });
-  }
-
-  const body = await request.json().catch(() => null);
-  const nextPerfumes = body?.perfumes;
-
-  if (!validatePerfumes(nextPerfumes)) {
-    return Response.json({ error: "El listado de perfumes no es valido." }, { status: 400 });
-  }
-
-  const savedToGithub = await saveToGithub(nextPerfumes);
-
-  if (!savedToGithub) {
-    if (process.env.VERCEL === "1") {
-      return Response.json(
-        { error: "En Vercel falta configurar GITHUB_TOKEN para guardar cambios persistentes en data/perfumes.json." },
-        { status: 500 }
-      );
+    if (adminPassword && request.headers.get("x-admin-password") !== adminPassword) {
+      return Response.json({ error: "Clave admin incorrecta." }, { status: 401 });
     }
 
-    await writePerfumes(nextPerfumes);
+    const body = await request.json().catch(() => null);
+    const nextPerfumes = body?.perfumes;
+
+    if (!validatePerfumes(nextPerfumes)) {
+      return Response.json({ error: "El listado de perfumes no es valido." }, { status: 400 });
+    }
+
+    const savedToGithub = await saveToGithub(nextPerfumes);
+
+    if (!savedToGithub) {
+      if (process.env.VERCEL === "1") {
+        return Response.json(
+          { error: "En Vercel falta configurar GITHUB_TOKEN para guardar cambios persistentes en data/perfumes.json." },
+          { status: 500 }
+        );
+      }
+
+      await writePerfumes(nextPerfumes);
+    }
+
+    revalidatePath("/");
+    revalidatePath("/admin");
+
+    return Response.json({ ok: true, mode: savedToGithub ? "github" : "local" });
+  } catch (error) {
+    return errorResponse(error);
   }
-
-  revalidatePath("/");
-  revalidatePath("/admin");
-
-  return Response.json({ ok: true, mode: savedToGithub ? "github" : "local" });
 }

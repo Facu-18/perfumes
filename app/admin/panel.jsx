@@ -39,7 +39,8 @@ export default function AdminPanel({ initialPerfumes }) {
         body: JSON.stringify({ perfumes })
       });
 
-      const result = await response.json();
+      const responseText = await response.text();
+      const result = responseText ? JSON.parse(responseText) : {};
 
       if (!response.ok) {
         throw new Error(result.error || "No se pudieron guardar los precios.");
@@ -48,7 +49,7 @@ export default function AdminPanel({ initialPerfumes }) {
       setMessage(result.mode === "github" ? "Precios guardados en el JSON del repo." : "Precios guardados en el JSON local.");
       router.refresh();
     } catch (error) {
-      setMessage(error.message);
+      setMessage(error instanceof SyntaxError ? "El servidor devolvio una respuesta invalida. Revisa los logs del deploy en Vercel." : error.message);
     } finally {
       setSaving(false);
     }
