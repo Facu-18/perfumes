@@ -45,7 +45,7 @@ export default function AdminPanel({ initialPerfumes }) {
         throw new Error(result.error || "No se pudieron guardar los precios.");
       }
 
-      setMessage(result.mode === "github" ? "Precios guardados en el repo. Vercel va a redesplegar el sitio." : "Precios guardados en el JSON local.");
+      setMessage(result.mode === "github" ? "Precios guardados en el JSON del repo." : "Precios guardados en el JSON local.");
       router.refresh();
     } catch (error) {
       setMessage(error.message);

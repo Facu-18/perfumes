@@ -1,5 +1,5 @@
 import { revalidatePath } from "next/cache";
-import { readPerfumes, writePerfumes } from "../../../lib/perfumes";
+import { getGithubConfig, readPerfumes, writePerfumes } from "../../../lib/perfumes";
 
 const validatePerfumes = (items) => {
   if (!Array.isArray(items)) return false;
@@ -17,9 +17,7 @@ const validatePerfumes = (items) => {
 };
 
 const saveToGithub = async (items) => {
-  const token = process.env.GITHUB_TOKEN;
-  const repository = process.env.GITHUB_REPOSITORY;
-  const branch = process.env.GITHUB_BRANCH || "master";
+  const { token, repository, branch } = getGithubConfig();
 
   if (!token || !repository) return false;
 
@@ -33,7 +31,8 @@ const saveToGithub = async (items) => {
   const currentResponse = await fetch(`${apiUrl}?ref=${branch}`, { headers, cache: "no-store" });
 
   if (!currentResponse.ok) {
-    throw new Error("No pude leer el JSON actual desde GitHub.");
+    const detail = await currentResponse.text();
+    throw new Error(`No pude leer el JSON actual desde GitHub. ${detail}`);
   }
 
   const currentFile = await currentResponse.json();
@@ -53,7 +52,8 @@ const saveToGithub = async (items) => {
   });
 
   if (!updateResponse.ok) {
-    throw new Error("No pude guardar el JSON en GitHub.");
+    const detail = await updateResponse.text();
+    throw new Error(`No pude guardar el JSON en GitHub. ${detail}`);
   }
 
   return true;
@@ -82,6 +82,13 @@ export async function PUT(request) {
   const savedToGithub = await saveToGithub(nextPerfumes);
 
   if (!savedToGithub) {
+    if (process.env.VERCEL === "1") {
+      return Response.json(
+        { error: "En Vercel falta configurar GITHUB_TOKEN para guardar cambios persistentes en data/perfumes.json." },
+        { status: 500 }
+      );
+    }
+
     await writePerfumes(nextPerfumes);
   }
 

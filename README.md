@@ -5,8 +5,8 @@ App Next.js con catalogo publico y panel de admin para editar precios desde `/ad
 ## Variables para Vercel
 
 - `GITHUB_TOKEN`: token de GitHub con permiso para escribir contents del repo.
-- `GITHUB_REPOSITORY`: repo en formato `usuario/repositorio`.
+- `GITHUB_REPOSITORY`: repo en formato `usuario/repositorio`. Opcional si Vercel detecta el repo conectado.
 - `GITHUB_BRANCH`: rama a actualizar. Por defecto usa `master`.
 - `ADMIN_PASSWORD`: clave opcional para proteger el guardado de precios.
 
-En local, si no hay `GITHUB_TOKEN`, el panel escribe directamente `data/perfumes.json`.
+En local, si no hay `GITHUB_TOKEN`, el panel escribe directamente `data/perfumes.json`. En Vercel, `GITHUB_TOKEN` es obligatorio porque el filesystem del deploy no persiste cambios.
