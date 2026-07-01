@@ -476,7 +476,7 @@
     "name": "The Kingdom Masculino",
     "line": "The Kingdom",
     "variant": "Masculino",
-    "price": 57000,
+    "price": 62,
     "image": "/images/the-kingdom-edp-100ml.jpg"
   },
   {
@@ -484,7 +484,7 @@
     "name": "The Kingdom Femenino",
     "line": "The Kingdom",
     "variant": "Femenino",
-    "price": 62000,
+    "price": 57,
     "image": "/images/the-kingdom-m-edp-100ml.jpg"
   },
   {
