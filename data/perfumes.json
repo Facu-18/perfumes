@@ -324,7 +324,7 @@
     "name": "Fakhar Negro",
     "line": "Fakhar",
     "variant": "Negro",
-    "price": 57000,
+    "price": 60000,
     "image": "/images/fakhar-edp-100ml-negro.jpg"
   },
   {
@@ -332,7 +332,7 @@
     "name": "Fakhar Rouse",
     "line": "Fakhar",
     "variant": "Rouse",
-    "price": 77000,
+    "price": 63000,
     "image": "/images/fakhar-f-edp-100ml.jpg"
   },
   {
@@ -340,7 +340,7 @@
     "name": "Fakhar Dorado",
     "line": "Fakhar",
     "variant": "Dorado",
-    "price": 65000,
+    "price": 63000,
     "image": "/images/fakhar-elixir-edp-100ml.jpg"
   },
   {
@@ -348,7 +348,7 @@
     "name": "Fakhar Platin",
     "line": "Fakhar",
     "variant": "Platin",
-    "price": 57000,
+    "price": 51000,
     "image": "/images/fakhar-platin.jpeg"
   },
   {
@@ -476,7 +476,7 @@
     "name": "The Kingdom Masculino",
     "line": "The Kingdom",
     "variant": "Masculino",
-    "price": 62,
+    "price": 62000,
     "image": "/images/the-kingdom-edp-100ml.jpg"
   },
   {
@@ -484,7 +484,7 @@
     "name": "The Kingdom Femenino",
     "line": "The Kingdom",
     "variant": "Femenino",
-    "price": 57,
+    "price": 57000,
     "image": "/images/the-kingdom-m-edp-100ml.jpg"
   },
   {
