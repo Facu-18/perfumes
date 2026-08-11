@@ -4,7 +4,7 @@
     "name": "9 AM Dive",
     "line": "9 AM",
     "variant": "Dive",
-    "price": 67000,
+    "price": 71000,
     "image": "/images/9am-dine-edp-100ml.jpg"
   },
   {
@@ -12,7 +12,7 @@
     "name": "9 AM Pour Femme",
     "line": "9 AM",
     "variant": "Pour Femme",
-    "price": 71000,
+    "price": 70000,
     "image": "/images/9am-pour-femme-edp-100ml.jpg"
   },
   {
@@ -20,7 +20,7 @@
     "name": "9 PM",
     "line": "9 PM",
     "variant": "Original",
-    "price": 62000,
+    "price": 65000,
     "image": "/images/9pm-edp-100ml.jpg"
   },
   {
@@ -28,7 +28,7 @@
     "name": "9 PM Pour Femme",
     "line": "9 PM",
     "variant": "Pour Femme",
-    "price": 63000,
+    "price": 72000,
     "image": "/images/9pm-pour-femme-edp-100ml.jpg"
   },
   {
@@ -36,7 +36,7 @@
     "name": "9 PM Night Out",
     "line": "9 PM",
     "variant": "Night Out",
-    "price": 94000,
+    "price": 103000,
     "image": "/images/9pm-night-out.jpg"
   },
   {
@@ -100,7 +100,7 @@
     "name": "Club de Nuit Urban Man Elixir",
     "line": "Club de Nuit",
     "variant": "Urban Man Elixir",
-    "price": 68000,
+    "price": 83000,
     "image": "/images/club-de-nuit-urban.jpg"
   },
   {
@@ -124,7 +124,7 @@
     "name": "Odyssey Candee",
     "line": "Odyssey",
     "variant": "Candee",
-    "price": 55000,
+    "price": 58000,
     "image": "/images/odyssey-candee-edp-100ml.jpg"
   },
   {
@@ -132,7 +132,7 @@
     "name": "Odyssey Homme",
     "line": "Odyssey",
     "variant": "Homme",
-    "price": 60000,
+    "price": 69000,
     "image": "/images/odyssey-homme-edp-100ml.jpg"
   },
   {
@@ -140,7 +140,7 @@
     "name": "Odyssey Homme White",
     "line": "Odyssey",
     "variant": "Homme White",
-    "price": 58000,
+    "price": 69000,
     "image": "/images/odysesey home white.jpg"
   },
   {
@@ -164,7 +164,7 @@
     "name": "Odyssey Limoni",
     "line": "Odyssey",
     "variant": "Limoni",
-    "price": 53000,
+    "price": 58000,
     "image": "/images/odyssey-limoni.jpg"
   },
   {
@@ -172,7 +172,7 @@
     "name": "Odyssey Aqua",
     "line": "Odyssey",
     "variant": "Aqua",
-    "price": 62000,
+    "price": 71000,
     "image": "/images/aqua.jpg"
   },
   {
@@ -188,7 +188,7 @@
     "name": "Honor y Glory",
     "line": "Honor",
     "variant": "Glory",
-    "price": 53000,
+    "price": 54000,
     "image": "/images/honor-glory-edp-100ml.jpg"
   },
   {
@@ -212,7 +212,7 @@
     "name": "Noble Blush",
     "line": "Noble",
     "variant": "Blush",
-    "price": 55000,
+    "price": 56000,
     "image": "/images/noble-blush-edp-100ml.jpg"
   },
   {
@@ -220,7 +220,7 @@
     "name": "Sublime",
     "line": "Sublime",
     "variant": "Original",
-    "price": 53000,
+    "price": 56000,
     "image": "/images/sublime.jpg"
   },
   {
@@ -244,7 +244,7 @@
     "name": "Universe",
     "line": "Universe",
     "variant": "Original",
-    "price": 71000,
+    "price": 72000,
     "image": "/images/Lattafa-Art-Of-Universe.jpg"
   },
   {
@@ -252,7 +252,7 @@
     "name": "Asad Negro",
     "line": "Asad",
     "variant": "Negro",
-    "price": 63000,
+    "price": 67000,
     "image": "/images/asad-edp-negro-100ml.jpg"
   },
   {
@@ -260,7 +260,7 @@
     "name": "Asad Bourbon",
     "line": "Asad",
     "variant": "Bourbon",
-    "price": 74000,
+    "price": 82000,
     "image": "/images/asad-bourbon-edp-100ml.jpg"
   },
   {
@@ -284,7 +284,7 @@
     "name": "Eclaire",
     "line": "Eclaire",
     "variant": "Original",
-    "price": 57000,
+    "price": 76000,
     "image": "/images/eclaire-edp-100ml.jpg"
   },
   {
@@ -324,7 +324,7 @@
     "name": "Fakhar Negro",
     "line": "Fakhar",
     "variant": "Negro",
-    "price": 60000,
+    "price": 63000,
     "image": "/images/fakhar-edp-100ml-negro.jpg"
   },
   {
@@ -332,7 +332,7 @@
     "name": "Fakhar Rouse",
     "line": "Fakhar",
     "variant": "Rouse",
-    "price": 63000,
+    "price": 67000,
     "image": "/images/fakhar-f-edp-100ml.jpg"
   },
   {
@@ -348,7 +348,7 @@
     "name": "Fakhar Platin",
     "line": "Fakhar",
     "variant": "Platin",
-    "price": 51000,
+    "price": 56000,
     "image": "/images/fakhar-platin.jpeg"
   },
   {
@@ -364,7 +364,7 @@
     "name": "Sakeena",
     "line": "Sakeena",
     "variant": "Original",
-    "price": 53000,
+    "price": 54000,
     "image": "/images/sakeena-100ml.jpg"
   },
   {
@@ -372,7 +372,7 @@
     "name": "Haya",
     "line": "Haya",
     "variant": "Original",
-    "price": 62000,
+    "price": 67000,
     "image": "/images/haya-edp-100ml.jpg"
   },
   {
@@ -404,7 +404,7 @@
     "name": "Khamrah",
     "line": "Khamrah",
     "variant": "Original",
-    "price": 56000,
+    "price": 60000,
     "image": "/images/khamrah-edp-100ml.jpg"
   },
   {
@@ -412,7 +412,7 @@
     "name": "Khamrah Qahwa",
     "line": "Khamrah",
     "variant": "Qahwa",
-    "price": 56000,
+    "price": 60000,
     "image": "/images/khamrah-qahwa-edp-100ml.jpg"
   },
   {
@@ -420,7 +420,7 @@
     "name": "Khamrah Dukan",
     "line": "Khamrah",
     "variant": "Dukan",
-    "price": 56000,
+    "price": 60000,
     "image": "/images/khamrah-dukahah-edp-100ml.jpg"
   },
   {
@@ -484,7 +484,7 @@
     "name": "The Kingdom Femenino",
     "line": "The Kingdom",
     "variant": "Femenino",
-    "price": 57000,
+    "price": 60000,
     "image": "/images/the-kingdom-m-edp-100ml.jpg"
   },
   {
@@ -492,7 +492,7 @@
     "name": "Yara Rosa",
     "line": "Yara",
     "variant": "Rosa",
-    "price": 56000,
+    "price": 67000,
     "image": "/images/yara-rosa-edp-100ml.jpg"
   },
   {
@@ -500,7 +500,7 @@
     "name": "Yara Candy",
     "line": "Yara",
     "variant": "Candy",
-    "price": 56000,
+    "price": 58000,
     "image": "/images/yara-candy-edp-100ml.jpg"
   },
   {
@@ -508,7 +508,7 @@
     "name": "Yara Tous",
     "line": "Yara",
     "variant": "Tous",
-    "price": 54000,
+    "price": 56000,
     "image": "/images/yara-tous-edp-100ml.jpg"
   },
   {
@@ -540,7 +540,7 @@
     "name": "Bharara King",
     "line": "Bharara",
     "variant": "King",
-    "price": 100000,
+    "price": 105000,
     "image": "/images/bharara-foto.jpg"
   },
   {
@@ -580,7 +580,7 @@
     "name": "Al Noble Ameer",
     "line": "Al Noble",
     "variant": "Ameer",
-    "price": 56000,
+    "price": 52000,
     "image": "/images/noble-ameer.jpeg"
   },
   {
@@ -588,7 +588,7 @@
     "name": "Al Noble Safeer",
     "line": "Al Noble",
     "variant": "Safeer",
-    "price": 56000,
+    "price": 52000,
     "image": "/images/noble-safeer.jpg"
   },
   {
@@ -596,7 +596,7 @@
     "name": "Al Noble Wazeer",
     "line": "Al Noble",
     "variant": "Wazeer",
-    "price": 56000,
+    "price": 52000,
     "image": "/images/noble-wazeer.png"
   },
   {
