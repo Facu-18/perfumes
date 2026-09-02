@@ -40,6 +40,14 @@
     "image": "/images/9pm-night-out.jpg"
   },
   {
+    "id": 79,
+    "name": "9PM Rebel",
+    "line": "9 PM",
+    "variant": "Rebel",
+    "price": 90000,
+    "image": "/images/9pm-rebel.jfif"
+  },
+  {
     "id": 6,
     "name": "Jean Lowe Inmortal",
     "line": "Jean Lowe",
@@ -110,6 +118,22 @@
     "variant": "Precieux",
     "price": 105000,
     "image": "/images/club-nuit-precieux.jpg"
+  },
+  {
+    "id": 80,
+    "name": "Club de Nuit Maleka",
+    "line": "Club de Nuit",
+    "variant": "Maleka",
+    "price": 75000,
+    "image": "/images/club-nuit-maleka.webp"
+  },
+  {
+    "id": 81,
+    "name": "Club de Nuit Woman",
+    "line": "Club de Nuit",
+    "variant": "Woman",
+    "price": 75000,
+    "image": "/images/club-nuit-woman.jfif"
   },
   {
     "id": 15,
@@ -622,30 +646,6 @@
     "variant": "Al Shuyukh Silver",
     "price": 72000,
     "image": "/images/silver.png"
-  },
-  {
-    "id": 79,
-    "name": "9PM Rebel",
-    "line": "9 PM",
-    "variant": "Rebel",
-    "price": 90000,
-    "image": "/images/9pm-rebel.jfif"
-  },
-  {
-    "id": 80,
-    "name": "Club de Nuit Maleka",
-    "line": "Club de Nuit",
-    "variant": "Maleka",
-    "price": 75000,
-    "image": "/images/club-nuit-maleka.webp"
-  },
-  {
-    "id": 81,
-    "name": "Club de Nuit Woman",
-    "line": "Club de Nuit",
-    "variant": "Woman",
-    "price": 75000,
-    "image": "/images/club-nuit-woman.jfif"
   },
   {
     "id": 82,
