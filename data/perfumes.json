@@ -622,5 +622,101 @@
     "variant": "Al Shuyukh Silver",
     "price": 72000,
     "image": "/images/silver.png"
+  },
+  {
+    "id": 79,
+    "name": "9PM Rebel",
+    "line": "9 PM",
+    "variant": "Rebel",
+    "price": 90000,
+    "image": "/images/9pm-rebel.jfif"
+  },
+  {
+    "id": 80,
+    "name": "Club de Nuit Maleka",
+    "line": "Club de Nuit",
+    "variant": "Maleka",
+    "price": 75000,
+    "image": "/images/club-nuit-maleka.webp"
+  },
+  {
+    "id": 81,
+    "name": "Club de Nuit Woman",
+    "line": "Club de Nuit",
+    "variant": "Woman",
+    "price": 75000,
+    "image": "/images/club-nuit-woman.jfif"
+  },
+  {
+    "id": 82,
+    "name": "Glacier Pour Homme",
+    "line": "Glacier",
+    "variant": "Pour Homme",
+    "price": 54000,
+    "image": "/images/glacier-pour.webp"
+  },
+  {
+    "id": 83,
+    "name": "Sabah Al Ward",
+    "line": "Sabah",
+    "variant": "Al Ward",
+    "price": 50000,
+    "image": "/images/sabah-al-ward.webp"
+  },
+  {
+    "id": 84,
+    "name": "Teriaq",
+    "line": "Teriaq",
+    "variant": "Original",
+    "price": 62000,
+    "image": "/images/terriaq.jfif"
+  },
+  {
+    "id": 85,
+    "name": "Teriaq Intense",
+    "line": "Teriaq",
+    "variant": "Intense",
+    "price": 70000,
+    "image": "/images/terriaq-intense.jfif"
+  },
+  {
+    "id": 86,
+    "name": "Hawas Black",
+    "line": "Hawas",
+    "variant": "Black",
+    "price": 72000,
+    "image": "/images/hawas-black.webp"
+  },
+  {
+    "id": 87,
+    "name": "Turathi Blue",
+    "line": "Turathi",
+    "variant": "Blue",
+    "price": 72000,
+    "image": "/images/turathi-blue.webp"
+  },
+  {
+    "id": 88,
+    "name": "Atlas",
+    "line": "Atlas",
+    "variant": "Original",
+    "price": 65000,
+    "image": "/images/atlas-lattafa.webp"
+  },
+  {
+    "id": 89,
+    "name": "Delilah",
+    "line": "Delilah",
+    "variant": "Original",
+    "price": 65000,
+    "image": "/images/delilah.webp"
+  },
+  {
+    "id": 90,
+    "name": "La Voie",
+    "line": "La Voie",
+    "variant": "Original",
+    "price": 62000,
+    "image": "/images/la-voie.webp"
   }
 ]
