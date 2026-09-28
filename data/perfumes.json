@@ -36,7 +36,7 @@
     "name": "9 PM Night Out",
     "line": "9 PM",
     "variant": "Night Out",
-    "price": 103000,
+    "price": 100000,
     "image": "/images/9pm-night-out.jpg"
   },
   {
@@ -92,7 +92,7 @@
     "name": "Club de Nuit Untold",
     "line": "Club de Nuit",
     "variant": "Untold",
-    "price": 75000,
+    "price": 76000,
     "image": "/images/club-de-nuit-untold-100ml.jpg"
   },
   {
@@ -124,7 +124,7 @@
     "name": "Club de Nuit Maleka",
     "line": "Club de Nuit",
     "variant": "Maleka",
-    "price": 75000,
+    "price": 76000,
     "image": "/images/club-nuit-maleka.webp"
   },
   {
@@ -172,7 +172,7 @@
     "name": "Odyssey Mandarin Sky",
     "line": "Odyssey",
     "variant": "Mandarin Sky",
-    "price": 62000,
+    "price": 63000,
     "image": "/images/odyssey-mandarin-sky-m-edp-100ml.jpg"
   },
   {
@@ -236,7 +236,7 @@
     "name": "Noble Blush",
     "line": "Noble",
     "variant": "Blush",
-    "price": 56000,
+    "price": 62000,
     "image": "/images/noble-blush-edp-100ml.jpg"
   },
   {
@@ -308,7 +308,7 @@
     "name": "Eclaire",
     "line": "Eclaire",
     "variant": "Original",
-    "price": 76000,
+    "price": 80000,
     "image": "/images/eclaire-edp-100ml.jpg"
   },
   {
@@ -428,7 +428,7 @@
     "name": "Khamrah",
     "line": "Khamrah",
     "variant": "Original",
-    "price": 62000,
+    "price": 60000,
     "image": "/images/khamrah-edp-100ml.jpg"
   },
   {
@@ -436,7 +436,7 @@
     "name": "Khamrah Qahwa",
     "line": "Khamrah",
     "variant": "Qahwa",
-    "price": 62000,
+    "price": 60000,
     "image": "/images/khamrah-qahwa-edp-100ml.jpg"
   },
   {
@@ -444,7 +444,7 @@
     "name": "Khamrah Dukan",
     "line": "Khamrah",
     "variant": "Dukan",
-    "price": 62000,
+    "price": 60000,
     "image": "/images/khamrah-dukahah-edp-100ml.jpg"
   },
   {
@@ -524,7 +524,7 @@
     "name": "Yara Candy",
     "line": "Yara",
     "variant": "Candy",
-    "price": 58000,
+    "price": 65000,
     "image": "/images/yara-candy-edp-100ml.jpg"
   },
   {
@@ -580,7 +580,7 @@
     "name": "Salvo Eau de Parfum",
     "line": "Salvo",
     "variant": "Eau de Parfum",
-    "price": 54000,
+    "price": 62000,
     "image": "/images/eau-de-parfum.jpg"
   },
   {
@@ -588,7 +588,7 @@
     "name": "Salvo Elixir",
     "line": "Salvo",
     "variant": "Elixir",
-    "price": 54000,
+    "price": 62000,
     "image": "/images/elixir-60ml.jpg"
   },
   {
@@ -596,7 +596,7 @@
     "name": "Salvo Intense",
     "line": "Salvo",
     "variant": "Intense",
-    "price": 54000,
+    "price": 62000,
     "image": "/images/intense.jpg"
   },
   {
@@ -660,7 +660,7 @@
     "name": "Sabah Al Ward",
     "line": "Sabah",
     "variant": "Al Ward",
-    "price": 50000,
+    "price": 60000,
     "image": "/images/sabah-al-ward.webp"
   },
   {
