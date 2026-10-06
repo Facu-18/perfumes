@@ -60,7 +60,7 @@
     "name": "Club de Nuit Intense",
     "line": "Club de Nuit",
     "variant": "Intense",
-    "price": 71000,
+    "price": 75000,
     "image": "/images/club-de-nuit-intense-edt-105ml.jpg"
   },
   {
@@ -100,7 +100,7 @@
     "name": "Club de Nuit Urban Man",
     "line": "Club de Nuit",
     "variant": "Urban Man",
-    "price": 65000,
+    "price": 67000,
     "image": "/images/club-nuit-urban-man.jpeg"
   },
   {
@@ -556,7 +556,7 @@
     "name": "Liquid Brun",
     "line": "Liquid",
     "variant": "Brun",
-    "price": 90000,
+    "price": 85000,
     "image": "/images/french-avenue.jpeg"
   },
   {
